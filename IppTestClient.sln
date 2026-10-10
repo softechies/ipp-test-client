@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E6F0FF86-AE9B-4DCF-AAE0-4CC4A7A2CECC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IppTestClient", "src\IppTestClient\IppTestClient.csproj", "{085D8AB1-F0D0-490F-89E7-E119C6EF7388}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{7E6342D5-3BD8-4AFF-BB25-4D39F848BD52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IppTestClient.Tests", "tests\IppTestClient.Tests\IppTestClient.Tests.csproj", "{0007BD8E-AB23-4B2A-8CB3-BFC6257630A6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{085D8AB1-F0D0-490F-89E7-E119C6EF7388}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{085D8AB1-F0D0-490F-89E7-E119C6EF7388}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{085D8AB1-F0D0-490F-89E7-E119C6EF7388}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{085D8AB1-F0D0-490F-89E7-E119C6EF7388}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0007BD8E-AB23-4B2A-8CB3-BFC6257630A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0007BD8E-AB23-4B2A-8CB3-BFC6257630A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0007BD8E-AB23-4B2A-8CB3-BFC6257630A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0007BD8E-AB23-4B2A-8CB3-BFC6257630A6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{085D8AB1-F0D0-490F-89E7-E119C6EF7388} = {E6F0FF86-AE9B-4DCF-AAE0-4CC4A7A2CECC}
+		{0007BD8E-AB23-4B2A-8CB3-BFC6257630A6} = {7E6342D5-3BD8-4AFF-BB25-4D39F848BD52}
+	EndGlobalSection
+EndGlobal
